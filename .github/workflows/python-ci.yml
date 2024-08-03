@@ -19,6 +19,7 @@ jobs:
 
       - name: install requirements
         run: |
+          cd comps
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
